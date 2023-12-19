@@ -1,0 +1,26 @@
+<div class="main-w3layouts wrapper">
+  <h1>SignUp Form</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top">
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <input class="text" type="text" formControlName="name" placeholder="Username" required="">
+        <input class="text email" type="email" formControlName="email" placeholder="Email" required="">
+        <input class="text" type="text" formControlName="mobile" placeholder="Mobile" required="">
+        <input class="text w3lpass" type="text" formControlName="dob" placeholder="DOB" required="">
+        <input type="submit">
+      </form>
+    </div>
+  </div>
+  <ul class="colorlib-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
